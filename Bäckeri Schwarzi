@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bäckerei Sonnengold</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      line-height: 1.6;
+      background: #fff8ec;
+      color: #4a3f35;
+    }
+    header {
+      background: #d9a84e;
+      color: white;
+      padding: 20px 0;
+      text-align: center;
+    }
+    nav {
+      background: #fff1d0;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #4a3f35;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    footer {
+      background: #d9a84e;
+      color: white;
+      text-align: center;
+      padding: 15px 0;
+    }
+    h1, h2 {
+      margin-bottom: 10px;
+    }
+    ul {
+      list-style: none;
+      padding: 0;
+    }
+    ul li::before {
+      content: "• ";
+      color: #d9a84e;
+    }
+    @media (max-width: 600px) {
+      nav {
+        flex-direction: column;
+      }
+      nav a {
+        margin: 10px 0;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Bäckerei Sonnengold</h1>
+    <p>Frisch. Regional. Handgemacht seit 1952.</p>
+  </header>
+
+  <nav>
+    <a href="#ueber">Über uns</a>
+    <a href="#sortiment">Sortiment</a>
+    <a href="#kontakt">Kontakt</a>
+  </nav>
+
+  <section id="ueber">
+    <h2>Über uns</h2>
+    <p>Unsere Bäckerei steht seit über 70 Jahren für traditionelles Handwerk, natürliche Zutaten und echte Leidenschaft fürs Backen. Ob knuspriges Steinofenbrot oder süße Klassiker – bei uns schmeckt man die Qualität.</p>
+  </section>
+
+  <section id="sortiment">
+    <h2>Unser Sortiment</h2>
+    <ul>
+      <li>Rustikales Bauernbrot</li>
+      <li>Dinkel-Vollkornbrot</li>
+      <li>Ofenwarme Brötchen</li>
+      <li>Buttercroissants</li>
+      <li>Apfelstrudel & Schwarzwälder Kirschtorte</li>
+    </ul>
+  </section>
+
+  <section id="kontakt">
+    <h2>Kontakt & Öffnungszeiten</h2>
+    <p><strong>Adresse:</strong> Sonnenstraße 12, 12345 Backstadt</p>
+    <p><strong>Telefon:</strong> 01234 567890</p>
+    <p><strong>Email:</strong> kontakt@baeckerei-sonnengold.de</p>
+    <p><strong>Öffnungszeiten:</strong><br>
+    Mo–Fr: 6:00 – 18:00 Uhr<br>
+    Sa: 6:00 – 14:00 Uhr<br>
+    So: geschlossen</p>
+  </section>
+
+  <footer>
+    &copy; 2025 Bäckerei Sonnengold – Alle Rechte vorbehalten
+  </footer>
+
+</body>
+</html>
